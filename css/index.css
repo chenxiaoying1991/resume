@@ -64,6 +64,7 @@ ul,li{
 }
 #a0 .logo{
     animation: list2In 1.3s linear 1s both;
+    -webkit-animation: list2In 1.3s linear 1s both;
 }
 #list li #a0 .logoL{
     width: 97px;
@@ -76,6 +77,7 @@ ul,li{
 }
 #a0 .logoL{
     animation: bounce 1s infinite ;
+    -webkit-animation: bounce 1s infinite ;
 }
 #list li #a0 .head{
     width: 219px;
@@ -91,6 +93,7 @@ ul,li{
 }
 #a0 .head{
     animation: swing 3s linear 2s infinite both;
+    -webkit-animation: swing 3s linear 2s infinite both;
 }
 
 
@@ -110,10 +113,12 @@ ul,li{
 }
 #a0 .word p:nth-child(even){
     animation: rotateInUpLeft 1s ease ;
+    -webkit-animation: rotateInUpLeft 1s ease ;
 }
 #a0 .word p:nth-child(odd){
     /*animation: bounceInRight 2s ease ;*/
     animation: rotateInUpRight 1.5s ease ;
+    -webkit-animation: rotateInUpRight 1.5s ease ;
 }
 
 /*------------*/
@@ -127,6 +132,7 @@ ul,li{
 #a0 .wordD p{
     display: inline;
     animation: zoomInUp  linear 3s;
+    -webkit-animation: zoomInUp  linear 3s;
 }
 
 
@@ -153,6 +159,7 @@ ul,li{
 }
 #a1 .logoL{
     animation: bounce 1s infinite ;
+    -webkit-animation: bounce 1s infinite ;
 }
 
 #list li .a1 .line i:nth-child(1){
@@ -237,6 +244,7 @@ padding-top: 30px;
 }
 #a1 .information p.p1{
     animation: swing 1s infinite;
+    -webkit-animation: swing 1s infinite;
 }
 .a1 .information p.p2{
     width:40% ;
@@ -252,6 +260,7 @@ padding-top: 30px;
 }
 #a1 .information p.p2{
     animation: swing 1s infinite;
+    -webkit-animation: swing 1s infinite;
 }
 #list li .a1 .information .center{
     width: 30%;
@@ -264,6 +273,7 @@ padding-top: 30px;
 }
 #a1 .center{
     animation: center 2s infinite 1s;
+    -webkit-animation: center 2s infinite 1s;
 }
 @keyframes center {
     0%{
@@ -273,6 +283,14 @@ padding-top: 30px;
         transform: rotate(360deg);
     }
 }
+/*@keyframes center {*/
+    /*0%{*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*100%{*/
+        /*transform: rotate(360deg);*/
+    /*}*/
+/*}*/
 /*---------------------------*/
 .a1 .informationOne{
     width: 27%;
@@ -288,6 +306,7 @@ padding-top: 30px;
 }
 #a1 .informationOne{
     animation: oneL   linear 0.2s both ;
+    -webkit-animation: oneL   linear 0.2s both ;
 
 }
 @keyframes oneL {
@@ -330,6 +349,7 @@ padding-top: 30px;
 }
 #a1 .informationTwo{
     animation: TwoL 0.5s ease 0.6s both;
+    -webkit-animation: TwoL 0.5s ease 0.6s both;
 
 }
 @keyframes TwoL {
@@ -370,6 +390,7 @@ padding-top: 30px;
 }
 #a1 .informationThree{
     animation: ThreeL 0.3s linear 1.2s both;
+    -webkit-animation: ThreeL 0.3s linear 1.2s both;
 
 }
 @keyframes ThreeL {
@@ -408,6 +429,7 @@ padding-top: 30px;
 }
 #a1 .informationFour{
     animation: FourL 0.3s linear 2s both;
+    -webkit-animation: FourL 0.3s linear 2s both;
 
 }
 @keyframes FourL {
@@ -445,6 +467,7 @@ padding-top: 30px;
 }
 #a1 .informationFive{
     animation: FiveL 0.3s linear 2.8s both;
+    -webkit-animation: FiveL 0.3s linear 2.8s both;
 
 }
 @keyframes FiveL {
@@ -506,6 +529,7 @@ padding-top: 30px;
 }
 #a2 .logoL{
     animation: bounce 1s infinite ;
+    -webkit-animation: bounce 1s infinite ;
 }
 
 #list li .a2 .about{
@@ -523,6 +547,7 @@ padding-top: 30px;
 }
 #a2 .about{
     animation: about .5s linear 0.1s both;
+    -webkit-animation: about .5s linear 0.1s both;
 }
 @keyframes about {
     0%{
@@ -569,6 +594,7 @@ padding-top: 30px;
 }
 #a2 span{
     animation: rubberBand 1s ease 1s;
+    -webkit-animation: rubberBand 1s ease 1s;
 }
 
 #list li .a2 .evaluate{
@@ -585,6 +611,7 @@ padding-top: 30px;
 }
 #a2 .evaluate{
     animation: fadeInRightBig 0.8s linear 0.3s both;
+    -webkit-animation: fadeInRightBig 0.8s linear 0.3s both;
     opacity: 1;
 }
 #list li .a2 .evaluate span{
@@ -602,6 +629,7 @@ padding-top: 30px;
 }
 #a2 span{
     animation: rubberBand 1s ease 1s both;
+    -webkit-animation: rubberBand 1s ease 1s both;
 }
 
 #list li .a2 .ability .pFirst{
@@ -711,6 +739,7 @@ animation:fadeInLeftBig 0.5s ease 1.2s both;
     top:52%;
     left:5%;
     animation:he 2s ease-in-out infinite forwards;
+    -webkit-animation:he 2s ease-in-out infinite forwards;
     transform-origin: top;
 }
 
@@ -760,6 +789,7 @@ animation:fadeInLeftBig 0.5s ease 1.2s both;
 
 #a3 .information{
     animation: information 1s linear 0.1s both;
+    -webkit-animation: information 1s linear 0.1s both;
 }
 @keyframes information {
     0%{
@@ -867,6 +897,7 @@ animation:fadeInLeftBig 0.5s ease 1.2s both;
 }
 #a4 .weiXin{
     animation: flip 2s linear;
+    -webkit-animation: flip 2s linear;
 }
 
 #list li .a4 .weiXin i{
