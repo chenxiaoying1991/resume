@@ -283,6 +283,14 @@ padding-top: 30px;
         transform: rotate(360deg);
     }
 }
+@-webkit-keyframes center {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 /*@keyframes center {*/
     /*0%{*/
         /*transform: rotate(0deg);*/
@@ -310,6 +318,18 @@ padding-top: 30px;
 
 }
 @keyframes oneL {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:8%;
+        left:35%;
+        opacity: 1;
+
+    }
+}
+@-webkit-keyframes oneL {
     0%{
         transform: rotate(360deg);
     }
@@ -364,6 +384,18 @@ padding-top: 30px;
 
     }
 }
+@-webkit-keyframes TwoL {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:25%;
+        left:58%;
+        opacity: 1;
+
+    }
+}
 .a1 .informationTwo p{
     height: 50px;
     line-height: 100px;
@@ -394,6 +426,18 @@ padding-top: 30px;
 
 }
 @keyframes ThreeL {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:43%;
+        left:31%;
+        opacity: 1;
+
+    }
+}
+@-webkit-keyframes ThreeL {
     0%{
         transform: rotate(360deg);
     }
@@ -444,6 +488,18 @@ padding-top: 30px;
 
     }
 }
+@-webkit-keyframes FourL {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:62%;
+        left:58%;
+        opacity: 1;
+
+    }
+}
 .a1 .informationFour p{
     height: 50px;
     line-height: 100px;
@@ -471,6 +527,18 @@ padding-top: 30px;
 
 }
 @keyframes FiveL {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:78%;
+        left:30%;
+        opacity: 1;
+
+    }
+}
+@-webkit-keyframes FiveL {
     0%{
         transform: rotate(360deg);
     }
@@ -550,6 +618,18 @@ padding-top: 30px;
     -webkit-animation: about .5s linear 0.1s both;
 }
 @keyframes about {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:6%;
+        left:21%;
+        opacity: 1;
+
+    }
+}
+@-webkit-keyframes about {
     0%{
         transform: rotate(0deg);
     }
@@ -752,6 +832,14 @@ animation:fadeInLeftBig 0.5s ease 1.2s both;
     }
 }
 
+@-webkit-keyframes he {
+    0%,100%{
+        transform: rotate(-15deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+}
 
 
 /*第四张a3*/
@@ -792,6 +880,18 @@ animation:fadeInLeftBig 0.5s ease 1.2s both;
     -webkit-animation: information 1s linear 0.1s both;
 }
 @keyframes information {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(720deg);
+        top:6%;
+        left:21%;
+        opacity: 1;
+
+    }
+}
+@-webkit-keyframes information {
     0%{
         transform: rotate(0deg);
     }
